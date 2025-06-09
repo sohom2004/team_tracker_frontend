@@ -1,0 +1,20 @@
+/* Current date box text color */
+.rbc-date-cell.rbc-now {
+  color: #374151 !important; /* Tailwind gray-700 */
+}
+
+/* Days of other months text color */
+.rbc-off-range-bg {
+  background-color: #111827 !important; /* Tailwind gray-900 */
+}
+
+/* Normal buttons in toolbar */
+.rbc-toolbar button {
+  color: #ffffff !important; /* white for unselected */
+}
+
+/* Active button (selected view or today/back/next) */
+.rbc-toolbar button.rbc-active {
+  color: #111827 !important; /* Tailwind gray-900 */
+}
+
